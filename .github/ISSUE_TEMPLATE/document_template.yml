@@ -31,6 +31,8 @@ body:
       description: |
         Please make sure to leave a reference to the document/ code you're referring to.
         請確保您引用的文件或程式碼的連結可用且能閱覽。
+    validations:
+      required: true
 
   - type: textarea
     attributes:
@@ -38,6 +40,8 @@ body:
       description: |
         Please describe as clearly as possible what topics you think are missing from the current documentation.
         請盡可能清楚地描述目前文檔中缺少哪些主題或哪些內容需要修正。
+    validations:
+      required: true
 
   - type: textarea
     id: further_information
